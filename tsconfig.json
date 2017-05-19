@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+        "module": "amd",
+        "target": "es5",
+        "noImplicitAny": false,
+        "sourceMap": false,
+        // "declarationDir": "./def",
+        "declaration": true,
+        "typeRoots": [
+            "./node_modules/@types",
+            "./node_modules/intern/typings"
+        ]
+    },
+    "include": [
+        "./src/**/*.ts",
+        "./tests/**/*.ts",
+        "./typings/index.d.ts"
+    ]
+}

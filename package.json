@@ -1,0 +1,22 @@
+{
+  "name": "ci-ns-example",
+  "version": "1.0.0",
+  "description": "test",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://dmccormack_ns@bitbucket.org/dmccormack_ns/ci-ns-example.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/dmccormack_ns/ci-ns-example#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^3.1.6",
+    "intern": "^3.4.4",
+    "typescript": "^2.3.2"
+  }
+}
