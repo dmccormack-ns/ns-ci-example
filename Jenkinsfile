@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Compile') {
       steps {
-        echo 'Building..'
+        echo 'Testing Commit Trigger..'
       }
     }
   }
